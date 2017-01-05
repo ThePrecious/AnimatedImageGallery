@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title>HTML5 Photo Gallery</title>
+	<!--css file-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- Add fancybox css-->
+	<link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" media="screen">
+
+
+
+
+
+</head>
+<body>
+<header>
+<div class="container">
+	<nav id="navbar">
+		<!--<a href="#">All Items</a>
+		<a href="#">Abstract</a>
+		<a href="#">Cartoon</a>
+		<a href="#">Cute</a>
+		<a href="#">Green</a>-->
+
+
+
+	</nav>
+
+
+</div><!--contianer end-->
+
+<section id="main">
+<div class="container">
+	<ul id="gallery">
+		<li data-tags="Cute, Cartoon"><a class="fancybox" rel="group" href="img/cartoon6.jpg"><img src="img/cartoon6.jpg"></a></li>
+		<li data-tags="Cute, Cartoon"><a class="fancybox" rel="group" href="img/cartoon5.jpg"><img src="img/cartoon5.jpg"></a></li>
+		<li data-tags="Cute, Cartoon"><a class="fancybox" rel="group" href="img/cartoon4.jpg"><img src="img/cartoon4.jpg"></a></li>
+		<li data-tags="Cartoon"><a class="fancybox" rel="group" href="img/cartoon3.jpg"><img src="img/cartoon3.jpg"></a></li>
+		<li data-tags="Cartoon"><a class="fancybox" rel="group" href="img/cartoon2.jpg"><img src="img/cartoon2.jpg"></a></li>
+		<li data-tags="Cartoon"><a class="fancybox" rel="group" href="img/cartoon1.jpg"><img src="img/cartoon1.jpg"></a></li>
+		<li data-tags="Abstract"><a class="fancybox" rel="group" href="img/abstract1.jpg"><img src="img/abstract1.jpg"></a></li>
+		<li data-tags="Abstract"><a class="fancybox" rel="group" href="img/abstract2.jpg"><img src="img/abstract2.jpg"></a></li>
+		<li data-tags="Abstract"><a class="fancybox" rel="group" href="img/abstract3.jpg"><img src="img/abstract3.jpg"></a></li>
+		<li data-tags="Cute"><a class="fancybox" rel="group" href="img/cute1.jpg"><img src="img/cute1.jpg"></a></li>
+		<li data-tags="Cute"><a class="fancybox" rel="group" href="img/cute2.jpg"><img src="img/cute2.jpg"></a></li>
+		<li data-tags="Cute, Cartoon"><a class="fancybox" rel="group" href="img/cute3.jpg"><img src="img/cute3.jpg"></a></li>
+        <li data-tags="Nature"><a class="fancybox" rel="group" href="img/nature1.jpg"><img src="img/nature1.jpg"></a></li>
+        <li data-tags="Nature"><a class="fancybox" rel="group" href="img/nature2.jpg"><img src="img/nature2.jpg"></a></li>
+        <li data-tags="Nature"><a class="fancybox" rel="group" href="img/nature3.jpg"><img src="img/nature3.jpg"></a></li>
+        <li data-tags="Nature"><a class="fancybox" rel="group" href="img/nature4.jpg"><img src="img/nature4.jpg"></a></li>
+        <li data-tags="Nature"><a class="fancybox" rel="group" href="img/nature5.jpg"><img src="img/nature5.jpg"></a></li>
+        <li data-tags="Green"><a class="fancybox" rel="group" href="img/green1.jpg"><img src="img/green1.jpg"></a></li>
+        <li data-tags="Green, Nature"><a class="fancybox" rel="group" href="img/green2.jpg"><img src="img/green2.jpg"></a></li>  
+        <li data-tags="Green"><a class="fancybox" rel="group" href="img/green3.jpg"><img src="img/green3.jpg"></a></li>
+        
+	</ul>
+</div><!--container end-->
+
+<hr>
+<footer>
+<div class="container">
+<p>HTML5 Photo Gallery &copy; 2014</p>
+
+</div>
+
+
+
+</footer>
+
+</section>
+
+<!--include JQuery-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--Quicksand Plugin-->
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<!--Fancybox Plugin-->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!--include Custom JS-->
+<script type="text/javascript" src="js/script.js"></script>
+
+<!--Call fancybox-->
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".fancybox").fancybox();
+});
+
+
+</script>
+</header>
+
+</body>
+</html>
