@@ -1,81 +1,90 @@
 /*Reset*/
-*{
-margin-bottom: 0;
-padding: 0;
+
+* {
+    margin-bottom: 0;
+    padding: 0;
 }
+
+
 /*general styling*/
-body{
-	color:#fcfcfc;
-	/*font-size: 14px;*/
-	font: 14px 'Segoe UI', Arial, sans-serif;
-	background: #ccc;
 
+body {
+    color: #fcfcfc;
+    font: 14px 'Segoe UI', Arial, sans-serif;
+    background: #ccc;
 }
-a{
-	text-decoration: none;
-	outline: none;
-	color: #54a6de;
 
+a {
+    text-decoration: none;
+    outline: none;
+    color: #54a6de;
 }
-/*Custom STyling*/
-.container{
 
-	width: 72%;
-	margin: 10px auto;
-	overflow: auto;
 
+/*Custom Styling*/
+
+.container {
+    width: 72%;
+    margin: 10px auto;
+    overflow: auto;
 }
+
+
 /*Navigation bar*/
-#navbar{
-	display: block;
-	height: 40px;
-	background: #13181d;
 
-
+#navbar {
+    display: block;
+    height: 40px;
+    background: #13181d;
 }
-#navbar a{
-	color: #fff;
-	display: inline-block;
-	height: 40px;
-	line-height: 37px;
-	padding: 0 15px;
 
+#navbar a {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 37px;
+    padding: 0 15px;
 }
-#navbar a.active, #navbar a:hover{
-background: #333;
 
+#navbar a.active,
+#navbar a:hover {
+    background: #333;
 }
+
+
 /*Content Style*/
-#main{
-display: block;
-overflow: hidden;
-width: 100%;
-margin: 0 auto;
-min-height: 475px;
 
+#main {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 475px;
 }
-#main li{
-	float: left;
-	height: 100px;
-	list-style: none;
-	margin: 6px;
-	position: relative;
-	width: 178px;
-	-moz-box-shadow: 0 0 5px #000;
-	-webkit-box-shadow:0 0 5px #000;
-	box-shadow: 0 0 5px #000;
 
+#main li {
+    float: left;
+    height: 100px;
+    list-style: none;
+    margin: 6px;
+    position: relative;
+    width: 178px;
+    -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
 }
-#main ul{
-	overflow: hidden;
-}
-#main ul.hidden{
-	display: none;
 
+#main ul {
+    overflow: hidden;
 }
-footer{
-	text-align: center;
-	color: #333;
-	font-size: 16px;
-	font-weight: bold;
+
+#main ul.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
 }
